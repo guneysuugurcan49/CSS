@@ -1,0 +1,6 @@
+p > b {/*b nin ebeveyni p olduğu için bu şekilde kullanılır*/
+    color: red;
+}
+p > em {
+    color: blue;
+}

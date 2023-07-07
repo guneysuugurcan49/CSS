@@ -1,0 +1,6 @@
+@import "text.css";/*import işlemi için kullandık*/
+
+body
+{
+    background: yellow;
+}

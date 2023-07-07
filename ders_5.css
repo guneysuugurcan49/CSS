@@ -1,0 +1,6 @@
+.mavi{/*hepsinin rengini  tek satırla değiştirmemizi sağlar r*/
+    color:blue;
+}
+.kırmızı {/*"." yı class ismini tanımlamak için kullandık*/
+    color:red;
+}
