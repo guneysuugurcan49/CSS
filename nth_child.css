@@ -1,0 +1,24 @@
+ul li:nth-child(4){/*kaçıncı çocuğun seçileceğine bakılır*/
+    background-color: red;
+}
+ul li:nth-child(odd){/*li ler içinde tek olanları seçmek için kullanılır*/
+    background-color: red;
+}
+ul li:nth-child(even){/*li ler içinde çift olanları seçmek için kullanılır*/
+    background-color: yellow;
+}
+ul li:nth-child(2n + 1){/*1. elemandan başlayarak 2 elemanda bir seçmek için kullanılır*/
+    background-color: green;
+}
+ul li:nth-child(n + 3){/*3.elemandan başlayarak tüm elemanları seçmek için kullanılır*/
+    background-color: grey;
+}
+ul li:nth-child(-n + 5){/*5.elemandan başlayarak önceki elemanları seçmek için kullanılır*/
+    background-color: yellow;
+}
+ul li:nth-child(n+4):nth-child(-n + 6){/*4 ile 6. elemanın arasını seçmek için kullanılır*/
+    background-color: brown;
+} 
+/*nth-of-type ile etiket türüne göre  seçmemize yarar*/ 
+/*nth-last-child ile etiket türüne göre sonuncusunu seçmemize yarar*/
+/*nth-last-of-type tiplere bakarak seçme yapmamızı sağlar*/

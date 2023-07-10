@@ -1,0 +1,13 @@
+p {
+    color: blue;
+}
+p::before {
+    content: 'Ogrenci ';
+    color: red;
+}
+
+/*seçilen niteliğin başına kelime eklemek için before kullanılır*/
+/*seçilen nitelikteki ilk harfi seçerek o harfi düzenlemek için firs-letter kullanılır*/
+/*seçilen nitelikteki ilk satırı seçerek o satırı düzenlemek için firs-line kullanılır*/
+/*seçilen niteliğe stil uygulamak için selection sözde öğesi kullanılı*/
+

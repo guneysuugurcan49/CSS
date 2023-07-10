@@ -1,0 +1,9 @@
+a[target="_blank"] {/*niteliğin değerine göre seçme işlemi*/
+    color: red;
+}
+/*nitelik değerini kelime olarak aratmak için ~= işareti kullanılır*/
+/*nitelik değeri seçtiğimiz kelime ile başlayan değeri aratmak için |= işareti kullanılır*/
+/*belirlenen kelime ile başlayan tüm nitelikleri seçmek için ^= kullanılır*/
+/*nitelik değeri belirlenen kelime ile biten tüm nitelikleri seçmek için $= kullanılır*/
+/*belirlenen kelime niteliğin içinde olan tüm  nitelikleri seçmek için *= kullanılır*/
+/*büyük küçük harf duyarlılığını kaldırmak için seçimden sonra i yazılır*/

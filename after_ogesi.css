@@ -1,0 +1,8 @@
+div {
+    color: blue;
+}
+div::after {
+    content: 'Sonraki Yazı';
+    color: red;
+}
+/*seçilen nitelikten sonra yazı eklemek için after kullanılır*/

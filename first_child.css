@@ -1,0 +1,9 @@
+li:first-child {
+    background-color : red;
+}
+ul li:last-child {
+    background-color: blue;
+}
+/*ilk çocuk, ilk elemanı seçmek için first-child kullanılır*/
+/*son çocuk, son elemanı seçmek için last-child kullanılır*/
+

@@ -1,0 +1,8 @@
+.box::after {
+    content: attr(title);/*fonksiyon içinden alınacak niteliği yazılır*/
+    color: yellow;
+}
+.box::before {
+    content: attr(class);
+    color: blue;
+}
