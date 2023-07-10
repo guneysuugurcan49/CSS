@@ -1,0 +1,15 @@
+.link1:active {
+    background-color: yellow;
+    /*aktif olan buttonları göstermek için kullanılır*/
+}
+.link2:link {
+    background-color: red;
+    /*ziyaret edilmeyen etikerleri göstermek için kullanılır*/
+}
+.link2:visited {
+    background-color: yellowgreen;
+    /*ziyaret edilen etiketleri göstermek içim kullanılır*/
+}
+nav.link3 a:any-link {
+    background-color: gray;
+}

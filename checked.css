@@ -1,0 +1,7 @@
+input[type="radio"]:checked + span {
+    color: red;
+    /*checked form elemanının check olup olmadığını kontrol etmek için kullanılır*/
+}
+input[type="checkbox"]:checked + label {
+    color: blue;
+}

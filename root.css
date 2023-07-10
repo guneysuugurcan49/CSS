@@ -1,0 +1,10 @@
+:root {
+    background-color: red;
+}
+html {
+    background-color: yellow;
+}
+body {
+    background-color: green;
+}
+/*etiketteki kök etiketi seçmek için kullanılır(öncelikli etiket)*/

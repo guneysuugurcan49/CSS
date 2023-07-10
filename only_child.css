@@ -1,0 +1,19 @@
+li:only-child {
+    background-color: red;
+    /*tek çocuğu olan ebeveyn ile işlem yapmak için kullanılır*/
+}
+.box div:only-of-type {
+    background-color: yellow;
+    /*tek tip olan etiketlerle işlem yapmak için kullanılır*/
+}
+abbr[title] {
+    background-color: grey;
+}
+abbr:not([title]) {
+    background-color: orange;
+    /*title olmayan etiketlerle işlem yapmak için kullanılır*/
+}
+li:empty {
+    /*içi boş olan etiketlerde işlem yapmak için empty kullanılır*/
+    display: none;/*içi boş olan etiketi göstermemek için kullanılır*/
+}

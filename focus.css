@@ -1,0 +1,13 @@
+ button:focus {/*istenilen elemana odaklanmak için focus kullanılır*/
+    background-color: orange;
+ }
+ input:focus {
+    color:red;
+    border-color: red;
+ }
+ a:focus {
+    background-color: yellow;
+ }
+ :focus {
+    outline: none;/*dış çizgiyi kaldırmak için kullanılır*/    
+ }
