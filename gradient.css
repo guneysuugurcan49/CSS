@@ -1,0 +1,7 @@
+.box {
+    width: 200px;
+    height: 200px;
+    background-image: linear-gradient(to bottom,yellow, red );
+}
+
+/*gradient ile arkaplanda renk geçişi için kullanılır*/

@@ -21,6 +21,11 @@ div {
 /*white-space boşlukları yönetmek için kullanılır*/
 /*text-shadow metinlere gölge eklemek için kullanılır*/
 /*background-image arka plana resim eklemek için kullanılır*/
+/*background-repeat arka plan fotoğrafının tekrar etmesi için kullanılır*/
+/*background-position ile arkaplan fotoğrafının konumunu ayarlak için kullanılır*/
+/*background-clip arkaplan resminin nereleri kapsayacağı belirlenirken kullanılır*/
+/*background-size arkaplan resminin boyutunu ayarlamak için kullanılır*/
+
 
 
 
