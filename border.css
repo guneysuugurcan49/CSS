@@ -1,0 +1,13 @@
+div {
+    width: 250px;
+    height: 250px;
+    padding-top: 80px;
+    border-style: dotted;
+    border-width: thick;
+    border-color: red rgb(15, 15, 244) black gray;
+    background-color: yellow;
+}
+
+/*etiketlere kenarlık vermek için border ve özellikleri kullanılır*/
+/*border-style :kenarlığın stilini belirlemek için kullanılır*/
+/*border-widht : kenarlığın kalınlığını ayarlamak için kullanılır*/

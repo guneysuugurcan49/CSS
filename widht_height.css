@@ -1,0 +1,11 @@
+div {
+    width: 300px;/*genişlik*/
+    height: 300px;/*yükseklik*/
+    background-color: red;
+}
+/*
+    max-widht,min-widht : min ve max genişlik için
+    max-height,min-height : min ve max yükseklik için
+    min-content : içeriğin içindeki en büyük eleman kadar genişliğini ayarlamak için kullanılır
+    max-content : içeriğin büyüklüğü kadar genişlik ayarlamak için kullanılır
+*/

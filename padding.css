@@ -1,0 +1,9 @@
+div {
+    background-color: yellow;
+    padding-top: 50px;/*üstte boşluk vermek için kullanılır*/
+    padding-right: 100px;
+    padding-left: 70px;
+    padding-bottom: 60px;/*altta boşluk bırakmak için kullanılır*/
+    /*padding: 50px 100px 70px 60px;*/
+}
+/*padding :Etiketin içinde iç boşluk ayarlamak için kullanılır*/

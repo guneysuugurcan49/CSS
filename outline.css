@@ -1,0 +1,18 @@
+div {
+    width: 200px;
+    height: 200px;
+    background-color: yellow;
+    margin: 50px auto;
+    border: 4px blue;
+
+    outline-style: dashed;
+    outline-width: 10px;
+    outline-color: blueviolet;
+    outline-offset: 10px;/*çizgi ile etiket arası mesafeyi ayarlamak için kullanılır*/
+
+    border-radius: 20px 30px 40px 50px;
+
+}
+/*box-sizing etiketin boyutunu hesaplayıp ayarlamak  için kullanılır*/
+/*outline etiketin dışına çizgi çizmek için kullanılır*/
+/*border-radius : etiketin köşelerini yumuşatmak için kullanılır*/

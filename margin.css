@@ -1,0 +1,8 @@
+div {
+    margin-top: 50px;/*etikete dış boşluk vermek için kullanılır*/
+    margin-right: 60px;
+    margin-bottom: 80px;
+    margin-left: 70px;
+    /*margin: 50px 60px 80px 70px;*/
+    background-color: red;
+}

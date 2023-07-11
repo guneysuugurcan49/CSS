@@ -1,0 +1,26 @@
+h1 {
+    color: hsl(35, 80%, 41%);
+}
+
+div {
+    text-decoration: line-through;
+    text-decoration-color: blue;
+    text-decoration-style: dotted;
+}
+/*font-family  yazının  rengini ayarlamak için kullanılır*/
+/*font-size  yazının boyutunu ayarlamak için kullanılır*/
+/*font-style  yazının stilini(tipini) ayarlamak için kullanılır*/
+/*line-height yazının satır yüksekliğini ayarlamak için kullanlır*/
+/*font-weight yazının satır uzunluğunu ayarlamak için kullanılır*/
+/*letter-spacing harfler arası mesafeyi ayarlamak için kullanılır*/
+/*word-spacing kelimeler arası mesafeyi ayarlamak için kullanılır*/
+/*text-align metinleri yatay olarak hizalamak için kullanılır*/
+/*text-align-last metinlerde son satırı hizalamak için kullanılır*/
+/*text-decoration metinlerde işaretleri ayarlamak için kullanılır*/
+/*text-indent metin girintisini ayarlamak için kullanılır*/
+/*white-space boşlukları yönetmek için kullanılır*/
+/*text-shadow metinlere gölge eklemek için kullanılır*/
+/*background-image arka plana resim eklemek için kullanılır*/
+
+
+
