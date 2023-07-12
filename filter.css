@@ -1,0 +1,11 @@
+img {
+    transition: 1s filter;
+    filter: brightness(.9)
+    contrast(1.2) 
+    grayscale(.5)
+    hue-rotate(1deg);
+    width: 50%;
+}
+img:hover {
+    filter: blur(0);/*bukanıklık*/
+}

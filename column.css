@@ -1,0 +1,14 @@
+.text {
+    line-height: 150%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    column-count: 3;/*3 kolona bölmek için kullanılır*/
+    column-rule-style: dashed;/*kolonlar arasına çizgi eklemek için kullanılır*/
+    column-rule-color: blue;/*kolonlar arası çizgiye renk vermek için kullanılır*/
+    column-rule-width: 5px;/*kolonlar arası çizginin kalınlığını belirlemek için kullanılır*/
+    /*column-rule: dashed blue 5px;*//*aynı işlemi yapar*/
+
+}
+.text h3 {
+    column-span: all;/*başlığı tüm yazıda kullanmak için kullanılır*/
+}

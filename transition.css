@@ -1,0 +1,30 @@
+a {
+    color:gray;
+    background-color: yellow;
+    transition-property: background-color;/*geçiş için*/
+    transition-duration: 500ms;/*geçiş süresi*/
+}
+a:hover {
+    background-color: red;
+}
+div {
+    height:50px;
+    width: 0;
+    background-color: blue;
+    transition-property: widht;
+    transition-duration: 500ms;
+    margin-bottom: 10px;/*boşluk bırakmak için*/
+}
+body:hover div {
+    width:100%;
+}
+div:nth-child(1) {
+    transition-timing-function: steps(3);
+}
+
+div:nth-child(2) {
+    transition-timing-function: ease-out;
+}
+div:nth-child(3) {
+    transition-timing-function: linear;
+}
