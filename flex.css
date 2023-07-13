@@ -1,0 +1,20 @@
+.flex {
+    display: flex;
+    width: 500px;
+    height: 500px;
+    border: 5px solid #000;
+    margin: 50px auto;/*ortalamak için kullandık*/
+}
+.flex .item {
+    height: 100px;
+    background: #ddd;
+    flex-grow: 1;/*elemanın büyüklüğünü belirtmek için kullanılır*/
+}
+.flex .item:nth-child(1){order: 5}
+.flex .item:nth-child(2){
+    order: 3;
+    align-self: center;/*içerindeki elemanları özel bir şekilde konumlandırmak için kullanılır*/
+}
+.flex .item:nth-child(3){order: 4; flex-grow: 2;}/*elemanı büyütmek için kullanılır*/
+.flex .item:nth-child(4){order: 1}
+.flex .item:nth-child(5){order: 2; flex-shrink: 3;}/*elemanı küçültmek için kullanılır*/

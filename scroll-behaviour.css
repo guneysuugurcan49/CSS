@@ -1,20 +1,51 @@
 html, body {
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
+    scroll-behavior: smooth;/*sayfa geçişini düzenlemek için kullanılır*/
 }
 
 
 nav {
     background-color: blue;
+    position: sticky;/*üstte sabit olarak kalması için*/
+    top: 0;
 }
-
+a {
+    text-decoration: none;
+}
 
 nav a 
 {
     line-height: 50px;
     display: inline-block;
-    text-decoration: none;
     padding: 0 20px;
+    color: #fff;
+}
+
+section {
+    scroll-margin-top: 50px;/*sayfayı doldurmak için kullanılır*/
+    height: calc(100vh - 50px);
+}
+#home {
+    background-color: red;
+}
+#about {
+    background-color: blueviolet;
+}
+#blog {
+    background-color: orange;
+}
+#contact {
+    background-color: green;
+}
+
+.top {
+    position: fixed;
+    bottom: 15px;
+    right: 15px;
+    line-height: 50px;
+    padding: 0 20px;
+    background-color: blue;
     color: #fff;
 
 }
